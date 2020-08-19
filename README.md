@@ -117,4 +117,4 @@ Feedstock Maintainers
 =====================
 
 * [@quinnwinters](https://github.com/quinnwinters/)
-
+* [@andrewgoldstein](https://github.com/AndrewGoldstein/)
