@@ -1,5 +1,5 @@
 {% set name = "motmetrics" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7328d8468c948400b38fcc212f3e448bc1f2fdfc727e170d85a029e49f1cdbc6
+  sha256: 3a777d5ab611cee008ae2c1acc39c7048d2b0b2eafed0f0f1ae473f35ebe34b9
 
 build:
   number: 0
@@ -24,9 +24,9 @@ requirements:
     - pandas >=0.23.1
     - python >=3.6
     - scipy >=0.19.0
-    - xmltodict >=0.12.0 
+    - xmltodict >=0.12.0
 
-    
+
 
 test:
   imports:
